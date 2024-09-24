@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tBr-96-JOB">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ItalianBakery" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tiramisu is a light and delicious dessert made with coffee-soaked cat's tongue biscuits, creamy mascarpone cheese and cocoa." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xe6-UV-vDX">
+                                <rect key="frame" x="16" y="448" width="361" height="56.666666666666686"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="17"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hCM-5J-iMv">
+                                <rect key="frame" x="29" y="520.66666666666663" width="335" height="27.333333333333371"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQE-eo-li0">
+                                        <rect key="frame" x="0.0" y="0.0" width="105" height="27.333333333333332"/>
+                                        <color key="backgroundColor" name="anaRenk"/>
+                                        <color key="tintColor" name="yaziRenk1"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Cocoa Powder">
+                                                    <attributes>
+                                                        <font key="NSFont" size="12" name="TimesNewRomanPS-ItalicMT"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" name="yaziRenk1"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXX-ec-jiK">
+                                        <rect key="frame" x="115" y="0.0" width="105" height="27.333333333333332"/>
+                                        <color key="backgroundColor" name="anaRenk"/>
+                                        <color key="tintColor" name="yaziRenk1"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Chocolate Sauce">
+                                                    <attributes>
+                                                        <font key="NSFont" size="12" name="TimesNewRomanPS-ItalicMT"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6v-gc-sG1">
+                                        <rect key="frame" x="230" y="0.0" width="105" height="27.333333333333332"/>
+                                        <color key="backgroundColor" name="anaRenk"/>
+                                        <color key="tintColor" name="yaziRenk1"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Coffee Liqueur">
+                                                    <attributes>
+                                                        <font key="NSFont" size="12" name="TimesNewRomanPS-ItalicMT"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$8.90" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rTA-lB-FuJ">
+                                <rect key="frame" x="15.999999999999996" y="736" width="49.666666666666657" height="24"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7p-zf-4Mc">
+                                <rect key="frame" x="294" y="734" width="82.333333333333314" height="28"/>
+                                <color key="backgroundColor" name="anaRenk"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="eKV-e9-n48"/>
+                                </constraints>
+                                <color key="tintColor" name="yaziRenk1"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Order Now">
+                                            <attributes>
+                                                <font key="NSFont" size="12" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yemek_resim" translatesAutoresizingMaskIntoConstraints="NO" id="yCs-93-t4r">
+                                <rect key="frame" x="0.0" y="103" width="393" height="296"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="296" id="uWY-0K-mCz"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t1B-oA-v8U">
+                                <rect key="frame" x="16" y="702" width="52" height="26.666666666666629"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="24"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Italian Classic Tiramisu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cjw-tV-BQO">
+                                <rect key="frame" x="72.000000000000014" y="394" width="249.33333333333337" height="28"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="25"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="t1B-oA-v8U" firstAttribute="leading" secondItem="Xe6-UV-vDX" secondAttribute="leading" id="0kV-z1-PVK"/>
+                            <constraint firstItem="C7p-zf-4Mc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rTA-lB-FuJ" secondAttribute="trailing" constant="8" symbolic="YES" id="AbK-lt-X8j"/>
+                            <constraint firstItem="Xe6-UV-vDX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Acf-JA-lgd"/>
+                            <constraint firstItem="rTA-lB-FuJ" firstAttribute="top" secondItem="t1B-oA-v8U" secondAttribute="bottom" constant="7.3333333333333712" id="FIB-6M-31t"/>
+                            <constraint firstAttribute="bottom" secondItem="t1B-oA-v8U" secondAttribute="bottom" constant="123.33333333333337" id="Fr7-HP-aoc"/>
+                            <constraint firstItem="hCM-5J-iMv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ml2-Wc-Swy"/>
+                            <constraint firstItem="hCM-5J-iMv" firstAttribute="top" secondItem="Xe6-UV-vDX" secondAttribute="bottom" constant="16" id="NM9-dk-fg4"/>
+                            <constraint firstItem="yCs-93-t4r" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PDB-0q-epd"/>
+                            <constraint firstItem="hCM-5J-iMv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29" id="PrT-Y1-qpo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="C7p-zf-4Mc" secondAttribute="trailing" constant="16.666666666666686" id="SkD-kW-Iwj"/>
+                            <constraint firstItem="hCM-5J-iMv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wh5-rf-9he"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="t1B-oA-v8U" secondAttribute="trailing" symbolic="YES" id="bdU-QB-cj8"/>
+                            <constraint firstItem="C7p-zf-4Mc" firstAttribute="centerY" secondItem="rTA-lB-FuJ" secondAttribute="centerY" id="dl9-34-Rbb"/>
+                            <constraint firstItem="Xe6-UV-vDX" firstAttribute="top" secondItem="Cjw-tV-BQO" secondAttribute="bottom" constant="26" id="dwe-2O-dOP"/>
+                            <constraint firstItem="hCM-5J-iMv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="520.66666666666652" id="fcJ-Wr-C8o"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Xe6-UV-vDX" secondAttribute="trailing" constant="-483" id="jqY-aw-slk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="C7p-zf-4Mc" secondAttribute="bottom" constant="56" id="mMv-GC-309"/>
+                            <constraint firstItem="yCs-93-t4r" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mgu-mc-M4H"/>
+                            <constraint firstItem="Xe6-UV-vDX" firstAttribute="centerX" secondItem="yCs-93-t4r" secondAttribute="centerX" id="oDg-RC-7up"/>
+                            <constraint firstItem="t1B-oA-v8U" firstAttribute="leading" secondItem="rTA-lB-FuJ" secondAttribute="leading" id="sNo-Lq-3wR"/>
+                            <constraint firstItem="Xe6-UV-vDX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="wnd-ts-8wK"/>
+                            <constraint firstItem="Xe6-UV-vDX" firstAttribute="centerX" secondItem="Cjw-tV-BQO" secondAttribute="centerX" id="xhr-ri-L0I"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="cFu-eD-Vvs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="983.96946564885491" y="-2.1126760563380285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="y3k-TX-e9L">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tBr-96-JOB" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MXf-EI-gYk">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="sfG-dI-y7Q"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SRN-hG-yIz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="57.251908396946561" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="yemek_resim" width="460" height="460"/>
+        <namedColor name="anaRenk">
+            <color red="0.24300000071525574" green="0.34900000691413879" blue="0.0080000003799796104" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk1">
+            <color red="0.99999994039535522" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk2">
+            <color red="0.45100000500679016" green="0.18000000715255737" blue="0.12200000137090683" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
